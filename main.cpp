@@ -2,7 +2,8 @@
 #include <cmath>
 
 int main() { 
-int principal;
+
+  int principal;
   int rate ;
   int time ;
   int parenthesis = rate / time + 1 ;
