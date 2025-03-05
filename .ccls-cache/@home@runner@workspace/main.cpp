@@ -7,5 +7,9 @@ int main() {
   std::mt19937 generator(rd()); 
   std::uniform_int_distribution<int> distribution(100, 999); 
   int numberX = distribution(generator); 
-  std::cout << "The number is: " << numberX << std::endl;
+  int numberY = distribution(generator);
+  std::cout << " " << numberX << std::endl;
+  std::cout << "+" << numberY << std::endl;
+  std::cout << "----" << std::endl;
+  cin >>
 }
